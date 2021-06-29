@@ -14,14 +14,14 @@
     $numeriCasuali = [];
     
     // contatore
-    $i = 0;
+    
     while (count($numeriCasuali) < 15) {
         // numero casuale da 1 a 20
         $numeroCasuale = rand(1,20);
         // se non c'è già il numero pushalo nell'array e incrementa il contatore
         if(!array_key_exists($numeroCasuale,  $numeriCasuali )){
             $numeriCasuali[] = $numeroCasuale;
-            $i++;
+           
         }
         
     };
